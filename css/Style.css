@@ -1,0 +1,38 @@
+.barraArriba { 
+    border-bottom: solid #3A6EA5 3px ;
+    background-color: #EBEBEB;
+    
+}
+.fondoTotal {
+  background-color: #3A6EA5;
+}
+@media (min-width:576px) {
+    .botonCelu{
+        display: none;
+    }
+    
+}
+
+.activo {
+    font-weight: bold;
+}
+/* Div del index */
+
+ /* .divFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}  */
+
+.divIndex {
+    border: #FF6700 solid 3px;
+    height: 150px;
+    text-align: center;
+    
+    background-color: #EBEBEB;
+    margin-bottom: 20px;
+    border-radius: 3px;
+
+}
+
