@@ -1,0 +1,35 @@
+
+.activ {
+    
+    
+    display: inline-block;
+    div{
+        align-items: center;
+        max-width: 100%;
+        
+    }
+    
+
+    .divActiv { 
+        background-color: $color-fondo-secundario;
+        
+        border-radius: 15px;
+        border: $color-botones solid 2px;
+        /*max-width: 100%;*/
+        align-items: center;
+    
+    
+        h2 {
+            display: block;
+            text-transform: uppercase;
+            font-weight: 700;
+            
+    
+              
+        }
+         
+    
+    
+    }
+
+}

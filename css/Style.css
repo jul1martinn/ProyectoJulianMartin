@@ -1,63 +1,144 @@
-.barraArriba { 
-    border-bottom: solid #3A6EA5 3px ;
-    background-color: #EBEBEB;
-    
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Roboto:wght@300&display=swap");
+/*ESTILOS GENERALES*/
+html {
+  font-size: 62.5%;
 }
-.fondoTotal {
+html body {
   background-color: #3A6EA5;
+  color: black;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
 }
-@media (min-width:576px) {
-    .botonCelu{
-        display: none;
-    }
-    
+html .activo {
+  font-weight: bold;
 }
 
-.activo {
-    font-weight: bold;
+@media (min-width: 576px) {
+  .botonCelu {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .divFeatured p {
+    display: none;
+  }
+  .divFeatured h3 {
+    display: inline-block;
+    text-align: center;
+  }
+}
+/* BARRA DE NAVEGACION */
+.barraArriba {
+  border-bottom: solid #3A6EA5 0.3rem;
+  background-color: #EBEBEB;
+  font-size: 2rem;
+}
+.barraArriba .botonCelu {
+  font-size: 2rem;
+  background-color: #F3752B;
 }
 
 /* Carousel clase*/
 .carousel {
-    margin-bottom: 4rem;
-  }
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-  }
-  .carousel-item {
-    height: 32rem;
-  }
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 18rem;
+}
+
+.activ {
+  display: inline-block;
+}
+.activ div {
+  align-items: center;
+  max-width: 100%;
+}
+.activ .divActiv {
+  background-color: #EBEBEB;
+  border-radius: 15px;
+  border: #F3752B solid 2px;
+  /*max-width: 100%;*/
+  align-items: center;
+}
+.activ .divActiv h2 {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
 /* FOOTER */
-
-.footerMio{
-    background-color: #EBEBEB;
-    width: 100%;
-    
+.footerMio {
+  background-color: #EBEBEB;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  height: auto;
 }
 
 /* featured */
 .feature-icon {
-    width: 4rem;
-    height: 4rem;
-    border-radius: .75rem;
-  }
-  
-.divFeatured { 
-    background-color: #EBEBEB;
-    border-radius: 10px;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
 }
- 
-  
-.divActiv { 
-    background-color: #EBEBEB;
-    height: 90%;
-    border-radius: 15px;
-    border: #FCA311 solid 2px;
+
+.divFeatured {
+  background-color: #EBEBEB;
+  border-radius: 10px;
 }
-  
 
+.hero {
+  width: 100%;
+  height: calc(100vh - 10rem);
+  position: relative;
+  display: inline-block;
+}
+.hero h2 {
+  color: #EBEBEB;
+  margin-bottom: 10px;
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+.hero h2 span {
+  font-weight: 700;
+  position: relative;
+  padding: 0 5px;
+}
+.hero h2 span::before {
+  content: "";
+  position: absolute;
+  height: 30%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #F3752B;
+  border-radius: 4px;
+  z-index: -1;
+}
+.hero p {
+  color: #EBEBEB;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.hero a {
+  background-color: #EBEBEB;
+  text-decoration: none;
+  color: black;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.hero a:hover {
+  background-color: grey;
+}
 
-  
-  
+/*# sourceMappingURL=style.css.map */

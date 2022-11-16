@@ -1,0 +1,26 @@
+/*ESTILOS GENERALES*/
+
+html { 
+    //esto es para que sea mas facil compararlo con los pixeles
+    font-size: 62.5%;
+
+    body { 
+        background-color: $color-fondo;
+        color: $color-fuentes;
+        font-family: 'Nunito', sans-serif;
+        //forma de arreglar el scroll lateral 
+        overflow-x: hidden;
+    }
+
+    .activo {
+        font-weight: bold;
+    }
+}
+
+@mixin anclas {
+
+    text-decoration: none;
+    color: $color-fuentes;
+    font-size: 3rem;
+
+}

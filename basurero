@@ -1,0 +1,59 @@
+/*.barraArriba { 
+    border-bottom: solid #3A6EA5 3px ;
+    background-color: #EBEBEB;
+    
+}
+.fondoTotal {
+  background-color: #3A6EA5;
+}
+@media (min-width:576px) {
+    .botonCelu{
+        display: none;
+    }
+    
+}
+
+.activo {
+    font-weight: bold;
+}
+
+/* Carousel clase
+.carousel {
+    margin-bottom: 4rem;
+  }
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  .carousel-item {
+    height: 32rem;
+  }
+
+/* FOOTER 
+
+.footerMio{
+    background-color: #EBEBEB;
+    width: 100%;
+    
+}
+
+/* featured 
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+  
+.divFeatured { 
+    background-color: #EBEBEB;
+    border-radius: 10px;
+}
+ 
+  
+.divActiv { 
+    background-color: #EBEBEB;
+    height: 90%;
+    border-radius: 15px;
+    border: #FCA311 solid 2px;
+}
+  */

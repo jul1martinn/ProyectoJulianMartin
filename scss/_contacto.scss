@@ -1,0 +1,59 @@
+.hero { 
+
+    width: 100%;
+    //se usa vh para decir que ocupe toda la pantalla, como el header tiene 10 rem, se le puede restar con operaciones matematicas. pero el problema es que al ser distintas unidades no se puede hacer (10 rem son 100 pixel), entonces lo que se usa es el calc para hacer calculos con distintas medidas! 
+    height: calc(100vh - 10rem);
+    position: relative;
+    display: inline-block;
+    
+
+    h2 { 
+        color: $color-fondo-secundario;
+        margin-bottom: 10px;
+        font-size: 3.8rem;
+        font-weight: 500;
+        span { 
+            font-weight: 700;
+            position: relative;
+            padding: 0 5px;
+
+            &::before {
+                content: "";
+                position: absolute; 
+                height: 30%;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                background-color: $color-botones;
+                border-radius: 4px;
+                z-index: -1;
+            }
+        }
+
+    }
+
+    p { 
+        color:$color-fondo-secundario;
+        margin-bottom: 30px;
+        font-size: 18px;
+
+    }
+
+    a { 
+        
+        background-color: $color-fondo-secundario;
+        @include anclas;
+        text-transform: uppercase;
+        padding:  0.5rem 1.5rem ;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+
+        &:hover { 
+            background-color: grey;
+        }
+
+    }
+
+   
+}
+
