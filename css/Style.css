@@ -27,6 +27,14 @@ html .activo {
     text-align: center;
   }
 }
+/*no lo puedo arrelgar lpm*/
+@media (min-width: 971px) {
+  .compraXl {
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 4;
+  }
+}
 /* BARRA DE NAVEGACION */
 .barraArriba {
   border-bottom: solid #3A6EA5 0.3rem;
@@ -39,6 +47,7 @@ html .activo {
 }
 
 /* Carousel clase*/
+/*esto es de boostrap, no se si modificarlo*/
 .carousel {
   margin-bottom: 4rem;
 }
@@ -52,6 +61,17 @@ html .activo {
   height: 18rem;
 }
 
+/*mi css*/
+.indexCarrusel {
+  border-radius: 0.6rem;
+  padding-top: 0.6rem;
+}
+.indexCarrusel .containerr a {
+  color: #EBEBEB;
+  background-color: #F3752B;
+}
+
+/*actividadessss*/
 .activ {
   display: inline-block;
 }
@@ -139,6 +159,21 @@ html .activo {
 }
 .hero a:hover {
   background-color: grey;
+}
+
+/*compraPC*/
+.compraXl div {
+  border-radius: 1rem;
+  padding: 1rem;
+  height: auto;
+  transition: all 0.3s ease;
+}
+.compraXl div div div:hover {
+  transform: scale(1.03);
+}
+.compraXl div div div a {
+  background-color: #FCA311;
+  border: black solid 1px;
 }
 
 /*# sourceMappingURL=style.css.map */

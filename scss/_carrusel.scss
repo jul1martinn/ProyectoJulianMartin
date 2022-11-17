@@ -1,5 +1,8 @@
 /* Carousel clase*/
+
+/*esto es de boostrap, no se si modificarlo*/
 .carousel {
+
     margin-bottom: 4rem; }
 
     
@@ -13,4 +16,32 @@
     height: 18rem;
 }
   
- 
+/*mi css*/
+
+.indexCarrusel {
+    
+    border-radius: 0.6rem;
+    padding-top: 0.6rem;
+
+
+    .containerr {
+
+
+        
+        a { 
+
+            
+            color: $color-fondo-secundario;
+            background-color: $color-botones;
+            
+
+        
+        }
+    }
+
+
+
+
+
+
+}

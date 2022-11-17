@@ -18,3 +18,14 @@
     }
 }
  }
+
+ /*no lo puedo arrelgar lpm*/
+
+@media (min-width:971px){
+.compraXl { 
+    display: grid;
+
+    grid-template-columns: 4;
+    grid-template-rows: 4;
+}
+}
