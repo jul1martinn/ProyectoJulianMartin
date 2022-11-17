@@ -73,7 +73,7 @@ html .activo {
 
 /*actividadessss*/
 .activ {
-  display: inline-block;
+  padding: 2rem;
 }
 .activ div {
   align-items: center;
@@ -107,11 +107,16 @@ html .activo {
   width: 4rem;
   height: 4rem;
   border-radius: 0.75rem;
+  text-align: center;
 }
 
 .divFeatured {
   background-color: #EBEBEB;
   border-radius: 10px;
+}
+.divFeatured div div div {
+  display: inline-block;
+  align-items: center;
 }
 
 .hero {

@@ -3,11 +3,31 @@
     width: 4rem;
     height: 4rem;
     border-radius: .75rem;
+    
+    text-align: center;
+    
+    
+    
   }
   
 .divFeatured { 
     background-color: $color-fondo-secundario;
     border-radius: 10px;
+
+
+    div { 
+
+      div {
+
+        div { 
+
+          display: inline-block;
+
+          align-items: center;
+
+        }
+      }
+    }
 
 
 }
